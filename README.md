@@ -41,7 +41,7 @@ Create a shopping list which meets the following requirements:
 
 As you create this app, consider how you are going to breka it down into simpler components and the shape of the data. Plan it out in advance and consider in which components certain data needs to be available. Ensure that you rely on a single source of truth, avoid duplicating any information as this can introduce bugs if the two sources end up out of sync.
 
-## Exercise 2: Exanding the functionality
+## Exercise 2: Expanding the functionality
 
 > 🎯 **Success criterion:** An enhanced shopping list app
 
