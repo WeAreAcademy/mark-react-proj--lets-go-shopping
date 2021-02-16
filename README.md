@@ -33,7 +33,7 @@ In this project, we will practice with event handlers and two-way input binding.
 Create a shopping list which meets the following requirements:
 - Adding items to the list:
   - A text input field where the user can type the name of the item they require
-  - A quantity field: an input for the quantity which is required - consider number validation on this field
+  - A quantity field: an input for the quantity which is required
   - A dropdown to choose the type of quantity e.g. kilograms, litres or number.
   - An add button, to allow the user to add the specified item to their list.
 - Showing the list:
@@ -48,6 +48,7 @@ As you create this app, consider how you are going to breka it down into simpler
 Improve the user experience by adding further capabilities to the app, such as:
 - Allowing the user to delete items off of the list e.g. if they have changed their mind.
 - Allowing the user to mark items as purchased (user case: make the list whilst at home and then mark items as purchased in the supermarket)
+- Add number validation to the quantity field
 - A count of the numbers left to buy
 - A filtered list showing only the items left to buy and a success message when the user has bought all items
 
