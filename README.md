@@ -24,7 +24,6 @@ In this project, we will practice with event handlers and two-way input binding.
 
 - Set up two-way input binding
 - Practice with event listeners
-- Practice breaking an app down into components and passing information between them
 
 ## Exercise 1: Minimum viable product
 
@@ -33,15 +32,18 @@ In this project, we will practice with event handlers and two-way input binding.
 Create a shopping list which meets the following requirements:
 - Adding items to the list:
   - A text input field where the user can type the name of the item they require
-  - A quantity field: an input for the quantity which is required
-  - A dropdown to choose the type of quantity e.g. kilograms, litres or number.
   - An add button, to allow the user to add the specified item to their list.
 - Showing the list:
-  - A list of the items which the user has already added, including their name and quantity.
+  - A list of the items which the user has already added.
 
-As you create this app, consider how you are going to breka it down into simpler components and the shape of the data. Plan it out in advance and consider in which components certain data needs to be available. Ensure that you rely on a single source of truth, avoid duplicating any information as this can introduce bugs if the two sources end up out of sync.
+## Exercise 2: Holding more information in state
 
-## Exercise 2: Expanding the functionality
+Embellish the section for adding items to the list by adding:
+  - A quantity field: an input for the quantity which is required
+  - A dropdown to choose the type of quantity e.g. kilograms, litres or number.
+These should also be reflected in the list of items.
+
+## Extension: Expanding the functionality
 
 > 🎯 **Success criterion:** An enhanced shopping list app
 
@@ -54,9 +56,3 @@ Improve the user experience by adding further capabilities to the app, such as:
 
 Please do experiment and add any other ideas which you may have.
 The focus here is on functionality rather than appearance and so css should not be your focus.
-
-## Exercise 3: Component tree
-
-> 🎯 **Success criterion:** The component tree of your app
-
-Ensure that you have split your app down into relevant React components. Draw the component tree of your app. 
