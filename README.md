@@ -36,7 +36,11 @@ Create a shopping list which meets the following requirements:
 - Showing the list:
   - A list of the items which the user has already added.
 
+You have free rein for how this can look, but for example without much styling, this could look something like: ![](./example-1.png).
+
 ## Exercise 2: Holding more information in state
+
+> 🎯 **Success criterion:** Can add quantity to new items
 
 Embellish the section for adding items to the list by adding a quantity field: an input for the quantity which is required. Also show the quantities alongside the name in the list of items.
 
