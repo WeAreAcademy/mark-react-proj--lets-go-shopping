@@ -38,10 +38,7 @@ Create a shopping list which meets the following requirements:
 
 ## Exercise 2: Holding more information in state
 
-Embellish the section for adding items to the list by adding:
-  - A quantity field: an input for the quantity which is required
-  - A dropdown to choose the type of quantity e.g. kilograms, litres or number.
-These should also be reflected in the list of items.
+Embellish the section for adding items to the list by adding a quantity field: an input for the quantity which is required. Also show the quantities alongside the name in the list of items.
 
 ## Extension: Expanding the functionality
 
@@ -51,6 +48,7 @@ Improve the user experience by adding further capabilities to the app, such as:
 - Allowing the user to delete items off of the list e.g. if they have changed their mind.
 - Allowing the user to mark items as purchased (user case: make the list whilst at home and then mark items as purchased in the supermarket)
 - Add number validation to the quantity field
+- Not all items can be counted as individiual items, some quantities may be measured in litres or kilgrams: add a dropdown to choose between units such as number, litres or kilograms
 - A count of the numbers left to buy
 - A filtered list showing only the items left to buy and a success message when the user has bought all items
 
