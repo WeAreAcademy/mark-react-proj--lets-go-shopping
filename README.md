@@ -44,12 +44,11 @@ You have free rein for how this can look, but for example without much styling, 
 
 Embellish the section for adding items to the list by adding a quantity field: an input for the quantity which is required. Also show the quantities alongside the name in the list of items.
 
-## Extension: Expanding the functionality
+## Extension 1: Expanding the functionality
 
 > 🎯 **Success criterion:** An enhanced shopping list app
 
 Improve the user experience by adding further capabilities to the app, such as:
-- Allowing the user to delete items off of the list e.g. if they have changed their mind.
 - Allowing the user to mark items as purchased (user case: make the list whilst at home and then mark items as purchased in the supermarket)
 - Add number validation to the quantity field
 - Not all items can be counted as individiual items, some quantities may be measured in litres or kilgrams: add a dropdown to choose between units such as number, litres or kilograms
@@ -58,3 +57,11 @@ Improve the user experience by adding further capabilities to the app, such as:
 
 Please do experiment and add any other ideas which you may have.
 The focus here is on functionality rather than appearance and so css should not be your focus.
+
+## Extension 2: Deletions - come back to this after the TV shows project
+
+> 🎯 **Success criterion:** Ability to delete items off the list
+
+What happens if a user changes their mind? Give them the option to be able to delete items off their list.
+
+Note that this should not be approached until scholars have further explored state as it opens up conversations about mutating state.
